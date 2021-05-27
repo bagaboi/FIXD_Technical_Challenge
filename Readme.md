@@ -58,6 +58,13 @@ First I plotted a scatterplot between number of cylinders and issue counts colum
 ![Alt text](Scatterplot.png?raw=true "Scatterplot between number of cylinders and issue counts")
 This showed higher peaks of issue counts in 6 and 8 cylinder vehicles.
 After this, I plotted a boxplot for each of the number of cylinders. Checked if there are outlier values and then only considered issue count values <20 which reduced only 5% of the data.
+![Alt text](Boxplot3cylinder.png?raw=true "Boxplot for 3 cylinders and issue counts")
+![Alt text](Boxplot4cylinder.png?raw=true "Boxplot for 4 cylinders and issue counts")
+![Alt text](Boxplot5cylinder.png?raw=true "Boxplot for 5 cylinders and issue counts")
+![Alt text](Boxplot6cylinder.png?raw=true "Boxplot for 6 cylinders and issue counts")
+![Alt text](Boxplot8cylinder.png?raw=true "Boxplot for 8 cylinders and issue counts")
+![Alt text](Boxplot10cylinder.png?raw=true "Boxplot for 10 cylinders and issue counts")
+![Alt text](Boxplot12cylinder.png?raw=true "Boxplot for 12 cylinders and issue counts")
 This gave a better idea of the true range of issues to engine count and where most of the issue count values lie for n-cylindered vehicles.
 
 
