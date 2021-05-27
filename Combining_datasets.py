@@ -91,6 +91,11 @@ def combine_datasets():
     combined_data=pd.merge(data1_filtered,data2,how='inner')
     print(combined_data.head())
     print(len(combined_data))
+
+    plt.scatter(combined_data['cylinder'],combined_data['issue_count'])
+    plt.xlabel("Number of cylinders")
+    plt.ylabel("issue count values for the respective number of cylinders")
+    plt.show()
     # Removed about 5% of the data with very high issue count treating them as outliers
     combined_data=combined_data[combined_data['issue_count']<20]
     print(len(combined_data))
