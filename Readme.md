@@ -55,6 +55,7 @@ combined_data=pd.merge(data1_filtered,data2,how='inner')
 
 ### 10. Visualizing the combined dataset to view relation between number of cylinders vs issues reported
 First I plotted a scatterplot between number of cylinders and issue counts column.
+![Alt text](Scatterplot.png?raw=true "Scatterplot between number of cylinders and issue counts")
 This showed higher peaks of issue counts in 6 and 8 cylinder vehicles.
 After this, I plotted a boxplot for each of the number of cylinders. Checked if there are outlier values and then only considered issue count values <20 which reduced only 5% of the data.
 This gave a better idea of the true range of issues to engine count and where most of the issue count values lie for n-cylindered vehicles.
